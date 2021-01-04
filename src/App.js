@@ -17,7 +17,6 @@ function App() {
       <Route path="/completed" exact component={Completed} />
       <Route path="/login" component={Auth} />
       <Redirect to="/" />
-      <span>Deployed on surge</span>
     </div>
   );
 }
