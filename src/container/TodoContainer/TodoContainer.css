@@ -1,0 +1,13 @@
+.container{
+    border: 1px solid #ccc;
+    width: 500px;
+    margin: 50px auto;    
+    background-color: white;
+}
+
+@media(max-width:500px){
+    .container{
+        width: 500px;
+        /* margin:  auto; */
+    }
+}

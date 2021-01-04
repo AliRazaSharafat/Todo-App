@@ -1,0 +1,23 @@
+.completeItemContainer{
+    border: 1px solid #ccc;
+    width: 500px;
+    margin: auto;    
+    background-color: white;
+    text-align: left;
+    /* display: flex; */
+    /* height: 100px; */
+    align-items: center;
+    padding: 5px 10px 10px 10px;
+}
+
+.completeItemContainer p{
+    word-break: break-word;
+}
+
+.completeItemContainer p span{
+    padding-left: 5px;
+}
+
+.Complete_Delete_Permanantly:hover{
+    color:#ff4757;
+}

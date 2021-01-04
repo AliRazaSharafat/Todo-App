@@ -1,0 +1,40 @@
+.ListElement{
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.desc{
+    width: 65%;
+    margin: 0;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.desc>p{
+    width: 100%;
+
+}
+
+.ButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin: 0;
+}
+
+.Complete_Task:hover{
+    color: #2ed573;
+}
+
+.Done{
+    cursor: not-allowed;
+}
+
+.Delete_Task:hover{
+    color: #ff4757;
+}

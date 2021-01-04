@@ -1,0 +1,57 @@
+.navbar{
+    background-color: #0693e3;
+    color: white;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo{
+    padding: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.Logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigationList{
+    width: 40%;
+}
+
+.navigationList>ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+
+}
+
+.navigationList ul a li.active{
+    border: 1px solid white;
+}
+
+.navigationList ul a li:hover{
+    border: 1px solid white;
+    background-color: #4dd0e1;
+    transition: all 0.5s ease-in;
+}
+.navlist{
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 0 5px;
+}
+
+.navigationList>ul>a{
+    text-decoration: none;
+    color: white;
+}

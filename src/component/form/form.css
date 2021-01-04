@@ -1,0 +1,74 @@
+.form-container{
+    margin-top: 5px;
+    border-top: 1px solid #ccc;
+    line-height: 35px;
+    width: 100%;
+    line-height: 35px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.form{
+    display: flex;
+}
+
+.input{
+    padding:10px;
+    width: 390px;
+    border-radius: 10px;
+    outline: none;
+    margin: 0 2px;
+    display: block;
+    box-shadow: 1px solid #eee;
+}
+
+.button{
+    outline: none;
+    margin: 0 2px;
+    border: hidden;
+    width: 100px;
+    padding: 5px;
+    font-size: larger;
+    color: white;
+    border-radius: 10px;
+    background-color: #24c4da;
+    box-shadow: 1px solid #eee;
+}
+
+.button:hover{
+    background-color:#0a9aad;
+    color: white;
+    cursor: pointer;
+    box-shadow: 100px solid #eee;
+    outline: none;
+}
+
+.button:disabled{
+    background-color: rgb(199, 199, 199);
+    cursor: not-allowed;
+    transition: all 0.3s ease-in;
+}
+
+.button:not(:disabled){
+    transition: all 0.5s ease-in-out;
+}
+
+.save{
+    margin: 5px;
+    border: hidden;
+    width: 100px;
+    padding: 10px 5px;
+    /* font-size: larger; */
+    /* color: white; */
+    border-radius: 10px;
+    box-shadow: 1px solid #eee;
+}
+
+.save:hover{
+    color: rgb(55, 236, 55);
+}
+
+.Submit_Task:hover{
+    background-color: red;
+    color: rgb(55, 236, 55);
+}
